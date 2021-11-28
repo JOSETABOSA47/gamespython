@@ -192,11 +192,3 @@ else:
   print("...")
   sleep(1)
   print("\033[1;30mHOUVE UM EMPATE... QUE SEM GRAÇA, GOSTARIA DE VER UM DOS 2 PERDENDO...\033[0;0m")
-
-print("")
-jogarnovamente = int(input("VOLTAR PARA MENU? 5 - SIM / 6 - NÃO => "))
-
-if jogarnovamente == 5:
-    import Menu
-else:
-    exit()

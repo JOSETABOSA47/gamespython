@@ -509,11 +509,3 @@ while True:
         print('Obrigado por jogar!!!Espero que tenha gostado!!!')
         print('='*50)
         break
-
-print("")
-jogarnovamente = int(input("VOLTAR PARA MENU? 3 - SIM / 4 - NÃO => "))
-
-if jogarnovamente == 3:
-    import Menu
-else:
-    exit()

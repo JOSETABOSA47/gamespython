@@ -169,11 +169,3 @@ while True:
             palavraSecreta = getPalavras(palavras)
         else:
             break
-        
-print("")
-jogarnovamente = int(input("VOLTAR PARA MENU? 1 - SIM / 2 - NÃO => "))
-
-if jogarnovamente == 1:
-    import Menu
-else:
-    exit()
